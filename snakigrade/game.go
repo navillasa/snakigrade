@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	ScreenWidth  = 420
-	ScreenHeight = 600
+	screenWidth  = 420
+	screenHeight = 600
 	boardSize    = 4
 )
 

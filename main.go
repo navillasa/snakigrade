@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/navillasa/snakigrade"
+	"github.com/navillasa/snakigrade/snakigrade"
 )
 
 var (

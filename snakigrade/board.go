@@ -1,7 +1,7 @@
 package snakigrade
 
 import (
-	"github.com/hajimehoshi/ebiten"
+// "github.com/hajimehoshi/ebiten"
 )
 
 // Board represents the game board.
@@ -10,3 +10,5 @@ type Board struct {
 	tiles map[*Tile]struct{}
 	tasks []task
 }
+
+type task func() error
